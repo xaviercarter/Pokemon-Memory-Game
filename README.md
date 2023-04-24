@@ -116,4 +116,4 @@ cards = [
 
 ##Wireframe Sketch
 
-1) https://github.com/xaviercarter/Pokemon-Memory-Game/blob/c5b9906d9f6830e757c258e3f55799d5d142d8b3/Pokemon%20Memory%20Game%20Sketch.png
+![Alt text]([/relative/path/to/img.jpg?raw=true](https://github.com/xaviercarter/Pokemon-Memory-Game/blob/c5b9906d9f6830e757c258e3f55799d5d142d8b3/Pokemon%20Memory%20Game%20Sketch.png) "Optional Title")
