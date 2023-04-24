@@ -108,9 +108,9 @@ let board
 - Card flip
 ```js
 cards = [
-    {front: 'ace', back: 'backOfCard'},
-    {front: 'queen', back: 'backOfCard'},
-    {front: 'jack', back: 'backOfCard'},
+    {front: 'pokemon 1', back: 'backOfCard'},
+    {front: 'pokemon 2', back: 'backOfCard'},
+    {front: 'pokemon 3', back: 'backOfCard'},
 ]
 ```
 
