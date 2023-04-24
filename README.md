@@ -1,4 +1,4 @@
-#Planning for Pokemon Memory Game
+# Planning for Pokemon Memory Game
 
 ## Analyze the apps functionality
 
@@ -114,6 +114,6 @@ cards = [
 ]
 ```
 
-##Wireframe Sketch
+## Wireframe Sketch
 
 ![Alt text](https://github.com/xaviercarter/Pokemon-Memory-Game/blob/c5b9906d9f6830e757c258e3f55799d5d142d8b3/Pokemon%20Memory%20Game%20Sketch.png)
