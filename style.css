@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(/images/background.png);
+}
+
+body {
+ 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3,10rem);
+    grid-template-rows: repeat(2, 14rem);
+    grid-gap: 2rem; 
+    perspective: 90px;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+    transform: rotateY(180deg);
+    box-shadow: black;
+}
+
+
+.front, 
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.back {
+    backface-visibility: hidden;
+}
+
+.toggleCard {
+    transform: rotateY(180);
+}
