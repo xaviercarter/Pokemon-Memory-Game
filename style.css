@@ -1,48 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: url(/images/background.png);
+h1 {
+    text-align: center;
 }
 
-body {
- 
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-section {
-    display: grid;
-    grid-template-columns: repeat(3,10rem);
-    grid-template-rows: repeat(2, 14rem);
-    grid-gap: 2rem; 
-    perspective: 90px;
+.row {
+    text-align: center;
 }
 
 .card {
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 2s ease;
-    transform: rotateY(180deg);
-    box-shadow: black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    border-radius: 8%;
 }
 
-
-.front, 
-.back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    pointer-events: none;
+.card.correct {
+    curser: default;
 }
 
-.back {
-    backface-visibility: hidden;
+.card.correct:hover {
+    curser: default;
+    box-shadow: none;
 }
 
-.toggleCard {
-    transform: rotateY(180);
+.button-container {
+    text-align: center;
+}
+
+.card:hover {
+    background-color: gray;
+}
+
+.one {
+    background-color: black;
+}
+
+.two {
+    background-color: aqua;
+}
+
+.three {
+    background-color: burlywood;
+}
+
+.four {
+    background-color: darkgreen;
+}
+
+.five {
+    background-color: midnightblue;
+}
+
+.six {
+    background-color: darkorange;
+}
+
+.seven {
+    background-color: brown;
+}
+
+.eight {
+    background-color:yellow;
+}
+
+.color-hidden {
+    background-color: darkslategray;
 }

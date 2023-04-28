@@ -8,8 +8,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     </head>
     <body>
-        <h1>Pokeballs Left: <span class="pokeballsLeft"></span></h1>
-        <section></section>
+        <h1 id="turnsUp">Turns Left: 5 <span class="turnsLeft"></span></h1>
+        <!-- row 1 -->
+        <div class="row">
+            <div data-card = "one" class="card one color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "two" class="card two color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "three" class="card three color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "four" class="card four color-hidden" onclick="flipCard(event)"></div>
+        </div>
+        <!-- row 2 -->
+        <div class="row">
+            <div data-card = "five" class="card five color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "six"class="card six color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "seven" class="card seven color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "eight" class="card eight color-hidden" onclick="flipCard(event)"></div>
+        </div>
+        <!-- row 3 -->
+        <div class="row">
+            <div data-card = "six" class="card six color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "two" class="card two color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "one" class="card one color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "eight" class="card eight color-hidden" onclick="flipCard(event)"></div>
+        </div>
+        <!-- row 4 -->
+        <div class="row">
+            <div data-card = "seven" class="card seven color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "five" class="card five color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "four" class="card four color-hidden" onclick="flipCard(event)"></div>
+            <div data-card = "three" class="card three color-hidden" onclick="flipCard(event)"></div>
+        </div>
+      
+
+
+
+        <div class="button-container">
+              <button>restart</button>
+        </div>
+
        <script src="./app.js"></script>
     </body>
 </html>
