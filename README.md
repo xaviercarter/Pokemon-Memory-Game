@@ -117,3 +117,29 @@ cards = [
 ## Wireframe Sketch
 
 ![Alt text](https://github.com/xaviercarter/Pokemon-Memory-Game/blob/c5b9906d9f6830e757c258e3f55799d5d142d8b3/Pokemon%20Memory%20Game%20Sketch.png)
+
+
+## Project UI Prototype
+
+![AdobeXD prototype](./images/beautifulUI.png)
+
+## Final Game Screenshot
+![Final Game](./images/final-game.png)
+
+## Technologies Used
+
+1) HTML
+2) CSS
+3) Javascript
+
+## Getting Started
+
+1) You have 5 chances to guess and memorize all off the cards, Good Luck!
+2) After 5 tries the game ends 
+
+## Planned Future Enhancements
+
+- Add background image
+- Add pokemon cards to the board
+- Create a message within the game screen to alert the player that they have won or lost
+- Create a pokedox where the matching pairs get added as caught pokemon
